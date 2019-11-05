@@ -1,0 +1,29 @@
+/* Indefinite Progress bar css */
+$loader-text-color: #2387aa;
+.loader-cover {
+  align-items: center;
+  background: transparent;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  justify-content: center;
+  left: 50%;
+  position: fixed;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+
+  img {
+    height: auto;
+    pointer-events: none;
+    width: 100px;
+  }
+}
+
+.loader-text {
+  color: $loader-text-color;
+  font-size: 1.125em;
+  letter-spacing: 0;
+  text-align: center;
+}

@@ -1,0 +1,52 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap';
+@import './assets/scss/partials/_button';
+@import './assets/scss/partials/_checkbox';
+
+@font-face {
+  font-family: 'Siemens Sans';
+  font-style: normal;
+  font-weight: 100;
+  src: url('/assets/fonts/sisan03.woff2') format('woff2'),
+    url('/assets/fonts/sisan03.eot') format('eot'),
+    url('/assets/fonts/sisan03.ttf') format('ttf'),
+    url('/assets/fonts/sisan03.woff') format('woff');
+}
+
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Siemens Sans', sans-serif, Arial, Helvetica;
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Using Fluid Typography */
+@media screen and (min-width: 20em) {
+  body {
+    font-size: calc(1em + (1.3125 - 1) * ((100vw - 20em) / (80 - 20)));
+    line-height: calc(1.4em + (1.8 - 1.4) * ((100vw - 20em) / (80 - 20)));
+  }
+}
+
+//for devices having width more than 1024
+@media (min-width: 80em) {
+  body {
+    font-size: 1.375em; //now 1.3125em fr 21px.. for 22px => 1.375em
+    line-height: 1.8em;
+  }
+}
+
+//mot sure where its been used
+img {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+.noselect {
+  user-select: none;
+}

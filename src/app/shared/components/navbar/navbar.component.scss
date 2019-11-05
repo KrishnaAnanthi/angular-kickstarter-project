@@ -1,0 +1,32 @@
+$infobar-bg-color: #f4f7f9;
+$userinfo-text-color: #738796;
+$navbar-bg-color: #f4f7f9;
+$tab-bg-color: #dfe6ed;
+$tab-text-color: #2387aa;
+$tab-active-bg-color: #fff;
+$tab-active-text-color: #000;
+$icon-color: #879baa;
+$icon-onhover-color: #005578;
+$nav-bar-height: 3em;
+$info-bar-height: 2.3em;
+
+.info-bar {
+  background: $infobar-bg-color;
+  min-height: $info-bar-height;
+  padding: 0 2rem;
+
+  .info-area {
+    color: $userinfo-text-color;
+  }
+
+  .error-message-area {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .work-station {
+    color: $userinfo-text-color;
+    text-align: right;
+  }
+}

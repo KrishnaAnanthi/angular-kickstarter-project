@@ -1,0 +1,32 @@
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import '~bootstrap/scss/mixins/_breakpoints';
+
+$title-color: #738796;
+$bg-color: #fff;
+
+.header {
+  background-color: $bg-color;
+  max-height: 4em;
+  min-height: 1.4em;
+  padding: 0 2rem;
+
+  .title {
+    color: $title-color;
+    font-size: calc(1.3em + (1.3125 - 1) * ((100vw - 20em) / (80 - 20)));
+    margin: 0.2em 0;
+    text-align: right;
+
+    @include media-breakpoint-down(xs) {
+      font-size: calc(1em + (1.3125 - 1) * ((100vw - 20em) / (80 - 20)));
+      line-height: calc(1em + (1.8 - 1.4) * ((100vw - 20em) / (80 - 20)));
+    }
+  }
+
+  .siemens-only-img {
+    height: 1.3em;
+    margin: 0.5em 0.5em 0.5em 0;
+    max-width: 7em;
+    width: 100%;
+  }
+}

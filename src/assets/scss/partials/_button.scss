@@ -1,0 +1,32 @@
+$icon-disabled-color: #adc0cc;
+$icon-onhover-color: #005578;
+$icon-color: #879baa;
+
+.icon-disabled {
+  color: $icon-disabled-color;
+}
+
+.onhover-color {
+  cursor: pointer;
+
+  &:hover {
+    color: $icon-onhover-color;
+  }
+
+  &:focus {
+    outline: 0 !important;
+  }
+}
+
+.close-icon {
+  background: $icon-color;
+  display: inline-block;
+  height: 1.4em;
+  line-height: 1.5em;
+  mask: url('/assets/img/close.svg');
+  width: 1.4em;
+
+  &:hover {
+    background: $icon-onhover-color;
+  }
+}
