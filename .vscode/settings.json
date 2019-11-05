@@ -1,0 +1,17 @@
+{
+  "python.pythonPath": "/usr/bin/python3",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.tabSize": 2,
+  "prettier.disableLanguages": [
+    "html"
+  ],
+  "html.format.enable": true,
+  "html.format.wrapLineLength": 120,
+  "html.format.wrapAttributes": "auto",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "stylelint.enable": true
+}
