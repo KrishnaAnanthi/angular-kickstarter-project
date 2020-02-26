@@ -1,7 +1,11 @@
 ## Edit Angular.json
 
-Add bootstrap, font awesome
+1.Add bootstrap, font awesome
+2.Add prefix for component
+"prefix": "aaa-config",
+
+
 
 ## Package.json
 
-Add dependency in package.json
+1.Add dependency in package.json
