@@ -1,7 +1,7 @@
-# Edit Angular.json
+## Edit Angular.json
 
 Add bootstrap, font awesome
 
-# Package.json
+## Package.json
 
 Add dependency in package.json
