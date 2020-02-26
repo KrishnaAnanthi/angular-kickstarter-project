@@ -10,7 +10,8 @@
       "request": "launch",
       "module": "server",
       "pythonPath": "${config:python.pythonPath}",
-      "cwd": "${workspaceFolder}/siemens",
+      "cwd": "${workspaceFolder}/siemens",      
+      "preLaunchTask": "myShellCommand",
       "args": ["-v=True","-f=True", "-i=ens33","-u=Pay with data" ],
       "env": {
         "SYSUSER": "admin",
